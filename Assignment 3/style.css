@@ -1,0 +1,88 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 1 0 200px;
+    margin-right: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#movie-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.movie-card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.movie-card img {
+    width: 10%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.movie-card h2 {
+    margin: 10px 0;
+}
+
+.movie-card p {
+    margin: 5px 0;
+}
